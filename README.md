@@ -1,1 +1,1 @@
-# rock-paper-scissors
+This is the Odin Project Foundations Javascript project titled "Rock Paper Scissors"
