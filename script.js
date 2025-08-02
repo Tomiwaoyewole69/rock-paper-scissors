@@ -36,8 +36,8 @@ function playGame(){
     }  
   }
   for (let i = 1; i <= 5; i++){
-    const humanSelection = getHumanChoice().toLowerCase();
-    const computerSelection = getComputerChoice().toLowerCase();
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
     playRound(humanSelection, computerSelection)
   }
   console.log(`Human: ${humanScore}, Computer: ${computerScore}`)
